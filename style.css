@@ -3,8 +3,31 @@
     background-color: #6cd1f0;
 }
 
+#jumbotron img {
+    transition: 0.5s;
+}
+
+#jumbotron img:hover {
+    /* position: relative; */
+    width: 300px;
+}
+
 #project {
     background-color: #528deb;
+}
+
+#achievement .card {
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#achievement img {
+    transition: 0.5s;
+}
+
+#achievement img:hover {
+    transform: rotate(3deg);
+    width: 20rem;
 }
 
 #contact {
